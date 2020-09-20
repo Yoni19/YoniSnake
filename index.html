@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yoni's Snake</title>
+</head>
+<body>
+    <style>
+        canvas{
+            position: absolute;
+            left: 50%;
+            top: 60%;
+            transform: translate(-50%,-50%);
+            border: 2px solid black;
+        }
+      .chiasse {text-align: center;
+
+      }
+    </style>
+
+   <div class= "chiasse">
+    <h1>Yoni's game</h1>
+    <h2> Score : <span class="score"> 0 </span></h2>
+    <h3>Combien de fruit du démon tu pourras manger ?</h3>
+    <button onClick="window.location.reload();">Relancer la partie</button>
+  </div> 
+  
+    <canvas id="canvas" width="600px" height="600px"></canvas>
+      <script src="app.js"></script>
+</body>
+</html>
