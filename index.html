@@ -8,26 +8,39 @@
 </head>
 <body>
     <style>
+      body
+
+{
+
+            width :100% ;
+
+}
         canvas{
             position: absolute;
             left: 50%;
-            top: 60%;
+            top: 500px;
             transform: translate(-50%,-50%);
             border: 2px solid black;
         }
       .chiasse {text-align: center;
+      margin-bottom: 10px;
 
       }
     </style>
+
 
    <div class= "chiasse">
     <h1>Yoni's game</h1>
     <h2> Score : <span class="score"> 0 </span></h2>
     <h3>Combien de fruit du démon tu pourras manger ?</h3>
     <button onClick="window.location.reload();">Relancer la partie</button>
-  </div> 
+    <br>
+   </div>
+ 
   
+  <div>
     <canvas id="canvas" width="600px" height="600px"></canvas>
       <script src="app.js"></script>
+  </div>
 </body>
 </html>
